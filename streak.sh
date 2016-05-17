@@ -1,4 +1,5 @@
 #!/bin/bash
+cd ~/streak/
 commit_date=" $(date +"%H:%M") of $(date +"%d-%m-%Y")"
 rm date
 echo $commit_date > date
